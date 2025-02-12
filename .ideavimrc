@@ -1,0 +1,46 @@
+""" Map leader to space ---------------------
+let mapleader=" "
+
+""" Plugins  --------------------------------
+set surround
+set ReplaceWithRegister
+set argtextobj
+set exchange
+set textobj-entire
+set highlightedyank
+set vim-paragraph-motion
+set textobj-indent
+set matchit
+set multiple-cursors
+set visualbell
+set noerrorbells
+set commentary
+
+set ignorecase
+set smartcase
+set incsearch
+set number
+set virtualedit=onemore
+set shiftround
+set nostartofline
+
+""" Idea specific settings ------------------
+"set clipboard=ideaput,unnamed,exclude:cons\|linux
+set ideamarks
+set ideajoin
+set idearefactormode=select
+set ideastatusicon=gray
+
+""" Mappings --------------------------------
+map <leader>d <Action>(DebugClass)
+map <leader>r <Action>(Run)
+map <leader>R <Action>(RunClass)
+map <leader>f <Action>(RerunFailedTests)
+map <leader>a <Action>(RunConfiguration)
+map <leader>b <Action>(JavaScript.Debugger.ReloadInBrowser)
+map <leader>s <Action>(Stop)
+map <leader>v <Action>(MoveTabRight)
+map <leader>h <Action>(MoveTabDown)
+map <leader>] <Action>(NextSplitter)
+map <leader>[ <Action>(PrevSplitter)
+map <leader>g <Action>(Git.Branches)
